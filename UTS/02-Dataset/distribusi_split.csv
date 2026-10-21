@@ -1,0 +1,4 @@
+split,sumber,respons,positif,negatif
+train,168,1008,291,717
+validation,36,216,66,150
+test,36,216,51,165

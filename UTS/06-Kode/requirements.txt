@@ -1,0 +1,2 @@
+# Skrip audit dan evaluasi memakai standard library Python 3.10+.
+# Pelatihan DeBERTa belum diimplementasikan dalam paket ini.

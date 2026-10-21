@@ -1,0 +1,7 @@
+generator,positif,negatif,uji_positif,uji_negatif
+gpt-3.5-turbo-0613,11,229,1,35
+gpt-4-0613,22,218,4,32
+llama-2-13b-chat,76,164,7,29
+llama-2-70b-chat,46,194,5,31
+llama-2-7b-chat,112,128,13,23
+mistral-7B-instruct,141,99,21,15

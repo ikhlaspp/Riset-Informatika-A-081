@@ -1,0 +1,34 @@
+{
+  "status": "rencana_belum_dilatih",
+  "checkpoint": "microsoft/deberta-v3-base",
+  "strategies": [
+    "B1",
+    "B2"
+  ],
+  "max_tokens": 512,
+  "response_tokens": 192,
+  "response_overlap": 32,
+  "chunk_tokens": 128,
+  "chunk_overlap": 0,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "learning_rate": 2e-05,
+  "max_epochs": 3,
+  "effective_batch_size": 16,
+  "seeds": [
+    13,
+    42
+  ],
+  "bootstrap_samples": 2000,
+  "dataset_commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+  "selection_metric": "validation_macro_f1_at_0.5",
+  "threshold_grid": {
+    "start": 0.05,
+    "stop": 0.95,
+    "step": 0.01
+  },
+  "response_aggregation": "max_probability",
+  "loss_unit": "response"
+}
